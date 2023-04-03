@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    background-image: url("coding.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calculator {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #dfe6e9;
+}
+
+button:active {
+    transform: translateY(2px);
+}

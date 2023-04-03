@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Arithmetic AI</h1>
+        <p>A simple calculator made by Ashutosh Gautam</p>
+        <p>Enter two numbers below and click on an operator to perform a calculation:</p>
+        <div class="calculator">
+            <div>
+                <span id="num1-el"></span>
+                <span id="num2-el"></span>
+            </div>
+            <div>
+                <button onclick="add()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="div()">/</button>
+                <button onclick="mul()">x</button>
+            </div>
+            <div>
+                <span id="sum-el">Result: </span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
